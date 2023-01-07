@@ -24,7 +24,7 @@ The relationship between image and container is similar to the relation between 
     <td>docker images;<br>
       docker search redis;<br>
       docker pull redis;(download redis)<br>
-      
+      docker rmi ...
     </td>
   </tr>
   <tr>
