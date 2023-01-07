@@ -21,7 +21,11 @@ The relationship between image and container is similar to the relation between 
   </tr>
   <tr>
     <td>image related command</td>
-    <td></td>
+    <td>docker images;<br>
+      docker search redis;<br>
+      docker pull redis;(download redis)<br>
+      
+    </td>
   </tr>
   <tr>
     <td>container related command</td>
