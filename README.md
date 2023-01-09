@@ -61,4 +61,9 @@ The relationship between image and container is similar to the relation between 
   <b>realize mounting:</b><br>
   docker run -it --name=c1 -v /Users/mengjiayu/Desktop/docker:/root/data_container centos:7 /bin/bash
   
+  <h3>Deployment</h3>
+  Problems:
+  1.when I deployed mysql in docker with command(docker run -id -p 3307:3306 --name=d_mysql -v $PWD/conf:/etc/mysql/conf.d -v $PWD/logs:/logs -v$PWD/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=19911120Aa, mysql:latest /bin/bash),the container was created successfully but it exited automaticlly. Then I used docker logs +container Id to check specific problem and I found I didn't use colon the first time between mysql and latest.
+  
+  
   
